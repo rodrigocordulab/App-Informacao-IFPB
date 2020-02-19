@@ -1,0 +1,120 @@
+/* Utilizado o do exemplo do bootstrap*/
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px; /* Make the masthead heading the same height as the navigation */
+}
+
+/* Custom page footer */
+footer#rodape{clear: both;
+border-top:5px solid gray;}
+footer#rodape p{text-align: center;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+div#background{
+  background-color: #FFFAFA;
+}
+
+
+img#if{
+  position: relative;
+  left: 550px;
+  top: -50px;
+  height: 90px;
+}
+
+div#cabecalho h1{
+font-size: 30pt;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+padding: 0px;
+margin: 0px 20px 0px 100px;
+position: center;
+}
+
+
+div#informacao h3{
+font-size: 30pt;
+    color: #1C1C1C;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+padding: 0px;
+margin-top: : 0px;
+}
+
+label{
+font-size: 14pt;
+    color: #1C1C1C;
+padding: 0px;
+margin-bottom: 0px;
+}
+
+div h6{
+  color: #1C1C1C;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+div#cabecalho {
+  background-color: #228B22;
+}

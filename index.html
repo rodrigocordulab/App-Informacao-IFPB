@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cursos IFPB</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+    <div id="cabecalho" class="header clearfix"><h1>Instituto Federal da Paraíba</h1></div>
+    <div class="container" id="principal">
+    <div id="informacao"><H3>Informações dos Cursos</H3>
+    <img id="if" src="imagens/ifpb.png">
+  </div>
+
+
+<div id="background">
+  <div class="form-group" id="busca">
+    <label for="formControlSelectCursos" class="target">Selecione o Curso do IFPB</label>
+    <select id="selectMatriz" class="form-control" id="formControlSelectCursos">
+    </select>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h6>Coordenador: </h6><span id="cursoCordenador"></span>
+    </div>
+    <div class="row">
+      <h6>Descrição: </h6><span id="cursoDescricao"></span>
+    </div>
+    <div class="row">
+       <h6>Diretoria: </h6><span id="cursoDiretoria"></span>
+    </div>
+    <div class="row">
+      <h6>Modalidade: </h6><span id="cursoModalidade"></span>
+    </div>
+    <div class="row">
+      <h6>Natureza da Participação: </h6><span id="cursoNaturezaParticipacao"></span>
+    </div> 
+</div>
+
+
+</div>
+</body>
+
+ <footer id="rodape">
+        <p>Copyright &copy; 2019 - by Rodrigo Córdula</p>
+        
+ </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+  <script src="js/main.js"></script>
+  <script src="cursos.json"></script>
+  <script src="matrizes.json"></script>
+</html>
